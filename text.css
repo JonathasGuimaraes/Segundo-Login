@@ -1,0 +1,133 @@
+body{
+margin: 100px;
+padding: 100px;
+font-family: sans-serif;
+background :url(Terra.jpg) no-repeat;
+background-size:cover;
+}
+.cadastro-1{
+width: 280px;
+position: absolute;
+top: 39%;
+left: 60%;
+transform: translate(-50%,-50%);
+color: rgb(230, 157, 31);
+text-align: center;
+}
+.cadastro-1 h1{
+float: left;
+font-size: 40px;
+border-bottom: 6px solid #4caf50;
+margin-bottom: 50px;
+padding: 13px 0;
+color: rgb(228, 165, 31);
+}
+.textx{
+width: 100%;
+overflow: hidden;
+font-size: 20px;
+padding: 8px 0;
+margin: 8px 0;
+border-bottom:1px solid #4caf50;
+}
+.textx i{
+width: 26px;
+float: left;
+text-align: center;
+}
+.textx input{
+border: none;
+outline: none;
+background: none;
+color: rgb(238, 233, 225);
+font-size: 18px;
+width: 80%;
+float: left;
+margin: 1px;
+}
+.btn{
+width: 100%;
+background: none;
+border: 2px solid #4caf50;
+color: #4caf50;
+color: rgb(243, 242, 247);
+padding: 5px;
+}
+.link {
+width: 280px;
+position: absolute;
+top: 100%;
+left: 50%;
+transform: translate(-50%,-50%);
+color: white;
+
+}
+.botao  {
+position:absolute;
+top:300px;
+left:3px;
+margin:0px;
+padding:0px;
+}
+.botao a {  
+font: bold 12px/24px arial, helvetica,sans-aerif;	
+padding:0px;
+text-decoration: none;
+text-align:center;	
+color:#ccc;
+background: rgb(235, 228, 228) url('botao_link.gif')
+no-repeat center center;	
+width:120px;  
+height:24px;	
+display:block;	
+}
+.botao a:hover { 
+background: rgb(248, 240, 240) url('botao_hover.gif') no-repeat 
+center center;
+color:#999;
+}
+.botao  {
+position:absolute;
+top:505px;
+left:625px;
+margin:0px;
+padding:0px;
+}
+.botao a, .botao a:visited {  
+font: bold 12px/24px arial, helvetica, sans-aerif;	
+padding:0px;
+text-decoration: none;
+text-align:center;	
+color:rgba(241, 227, 227, 0.904);
+background: rgba(98, 184, 112, 0.986) url('botao_link.gif') no-repeat 
+center center;	
+width:120px;  
+height:24px;	
+display:block;	
+}
+.botao a:hover { 
+background: rgb(236, 228, 228) url('botao_hover.gif') no-repeat 
+center center;
+color:rgb(131, 127, 127);
+}
+@media screen and (max-width:600px){
+nav li{
+rotate :none;
+text-align:center;
+width: 100px;
+}
+fronter p{
+    display: none;
+    color:rgb(243, 238, 230);
+}
+.h2{
+    top: 505px;
+    left: 0%;
+    color: rgb(238, 161, 29);
+}
+.h1{
+    top: 290%;
+    left: 0%;
+    color: rgb(240, 236, 229);
+}
+/*falta colocar os  dados do link de enter*/
